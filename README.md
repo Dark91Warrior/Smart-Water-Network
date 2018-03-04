@@ -117,3 +117,8 @@ Prima dell’installazione abbiamo provveduto a tarare i singoli flussometri, fa
 
 ## Assemblaggio Hardware
 
+Analizzato il problema che si intende risolvere si può passare all’assemblaggio, vero e proprio, del progetto.
+II montaggio verrà spiegato passo passo con l’ausilio di immagini; prima di tutto occorre mostrare una panoramica del materiale, precedentemente analizzato, che è stato utilizzato.
+
+Flussometri
+
