@@ -38,7 +38,7 @@ WiFiServer server(80);              // Per connettermi al server utilizzo la por
  **************************************/
 #define BOTtoken    ""              // Inserisci il token del BOT da te creato
 #define BOTname     ""              // Inserisci il nome del BOT
-#define BOTusername "PippoLedBot"   // Inserisci l'username del BOT
+#define BOTusername ""              // Inserisci l'username del BOT
 
 // Inizializzazione della classe TelegramBot in cui i campi sono descritti nelle variabili precedentemente dichiarate
 TelegramBOT bot(BOTtoken, BOTname, BOTusername);
@@ -143,7 +143,7 @@ void Bot_ParseMessages()
       }
     }
   }
-  bot.message[0][0] = "";   // Tutti i messaggi sono stati - Ripristina i nuovi messaggi
+  bot.message[0][0] = "";   // Tutti i messaggi sono stati letti - Ripristina i nuovi messaggi
 }
 
 /*********
