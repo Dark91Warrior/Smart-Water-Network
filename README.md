@@ -121,4 +121,4 @@ Analizzato il problema che si intende risolvere si può passare all’assemblagg
 II montaggio verrà spiegato passo passo con l’ausilio di immagini; prima di tutto occorre mostrare una panoramica del materiale, precedentemente analizzato, che è stato utilizzato.
 
 Flussometri
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Dark91Warrior/Smart-Water-Network/images/image1.png)
