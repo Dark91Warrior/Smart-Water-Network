@@ -135,8 +135,8 @@ Power Bank
 
 In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
 
-![node](/images/image4.jpg =24x48)
-![breadboard](/images/image21.jpg?raw=true "Breadboard" =24x48)
+![node](/images/image4.jpg?raw=true "NodeMCU")
+![breadboard](/images/image21.jpg?raw=true "Breadboard" | width=24)
 ![ethernet](/images/image23.jpg?raw=true "Cavo Ethernet")
 
 Il primo passo consiste nell’assemblaggio della struttura su cui sono posizionati i 4 flussometri e su cui, successivamente, verranno inseriti i collegamenti elettrici.
