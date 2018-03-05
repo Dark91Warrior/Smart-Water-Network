@@ -122,3 +122,31 @@ II montaggio verrà spiegato passo passo con l’ausilio di immagini; prima di t
 
 Flussometri
 ![flussometri](/images/image33.png?raw=true "Flussometri")
+
+Tubo da giardino
+![tubo](/images/image35.png?raw=true "Tubo da giardino")
+
+Raccordi e riduttori
+![raccordi](/images/image34.jpg?raw=true "Raccordi e riduttori")
+
+Power Bank
+![raccordi](/images/image11.png?raw=true "Power Bank")
+![raccordi](/images/image11.png?raw=true "Power Bank")
+
+In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
+
+![node](/images/image4.jpg?raw=true "NodeMCU")
+![breadboard](/images/image21.jpg?raw=true "Breadboard")
+![ethernet](/images/image23.jpg?raw=true "Cavo Ethernet")
+
+Il primo passo consiste nell’assemblaggio della struttura su cui sono posizionati i 4 flussometri e su cui, successivamente, verranno inseriti i collegamenti elettrici.
+
+Com’è possibile notare nella figura relativa al tubo da giardino, due raccordi sono già stati inseriti; tale tubo permetterà il collegamento tra un normale rubinetto dell’acqua e la struttura che andremo a creare. Le misure del tubo sono relative allo spazio di utilizzo e alla distanza dalla fonte d’acqua; si consigliano in ogni caso una decina di metri.
+
+Innanzitutto serviranno dei segmenti di tubo, di misura più o meno variabile (in base allo spazio in cui verrà utilizzato il progetto, in questo caso non superano i 10 cm), come rappresentati in figura.
+
+Tali segmenti saranno fondamentali per la creazione della struttura nella quale verranno connessi i flussometri; sarà indispensabile l’utilizzo dei raccordi per il loro assemblaggio.
+
+Iniziamo con il montaggio del primo segmento:
+
+![segmento](/images/image4.jpg?raw=true "Primo Segmento")
