@@ -168,7 +168,7 @@ Da un lato, grazie all’utilizzo di un riduttore, viene fissato il primo flusso
 
 Nei due nuovi rami creati possono essere inseriti due nuovi segmenti (creati con le stesse modalità del primo) e in uno dei due può essere inserito il secondo flussometro, che sarà utilizzato per il calcolo del flusso d’acqua nel secondo ramo.
 
-<img src="/images/image.png" width="200">
+<img src="/images/image22.png" width="300">
 
 I due flussometri verranno in seguito connessi al nodeMCU tramite uno specifico schema elettrico mostrato successivamente nel tutorial.
 
@@ -344,11 +344,11 @@ Infine bisogna configurare la connessione al Wi-Fi per permettere la comunicazio
 
 Una volta effettuate tutte queste operazioni, collegate il vostro NodeMCU con un cavetto USB al vostro PC. Andate su "Strumenti" e dopo aver collegato il modulo dovrebbe apparirvi la porta a cui è connesso. Qualora non fosse già selezionata, selezionatela.
 
-<img src="/images/image30.png" width="700">
+<img src="/images/image30.png" width="500">
 
 Tramite il pulsante "Carica" a forma di freccia in alto a sinistra caricate il codice nel modulo.
 
-<img src="/images/image9.png" width="700">
+<img src="/images/image9.png" width="800">
 
 Ora dovrebbe essere tutto a posto e potrete godervi il vostro lavoro. Se avete già esperienza con questo tipo di moduli e software potete anche smanettare nel codice per modificare alcuni parametri (quali i tempi di attesa o delay ecc.). Buon divertimento!
 
