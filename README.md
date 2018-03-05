@@ -124,21 +124,28 @@ Flussometri
 
 <img src="/images/image33.png" width="512">
 
+
 Tubo da giardino
-<img src="/images/image35.png" width="512">
+
+<img src="/images/image35.png" width="400">
+
 
 Raccordi e riduttori
-<img src="/images/image34.jpg" width="512">
+
+<img src="/images/image34.jpg" width="400">
+
 
 Power Bank
+
 <img src="/images/image11.png" width="300">
-<img src="/images/image25.png" width="300">
+<img src="/images/image25.png" width="280">
+
 
 In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
 
-<img src="/images/image4.jpg" width="400">
-<img src="/images/image21.jpg" width="400">
-<img src="/images/image23.jpg" width="400">
+<img src="/images/image4.jpg" width="300">
+<img src="/images/image21.jpg" width="300">
+<img src="/images/image23.jpg" width="300">
 
 Il primo passo consiste nell’assemblaggio della struttura su cui sono posizionati i 4 flussometri e su cui, successivamente, verranno inseriti i collegamenti elettrici.
 
@@ -150,4 +157,4 @@ Tali segmenti saranno fondamentali per la creazione della struttura nella quale 
 
 Iniziamo con il montaggio del primo segmento:
 
-![segmento](/images/image4.jpg?raw=true "Primo Segmento")
+<img src="/images/image38.png" width="400">
