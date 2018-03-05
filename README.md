@@ -142,9 +142,7 @@ Power Bank
 
 In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
 
-<img src="/images/image4.jpg" width="200">
-<img src="/images/image21.jpg" width="200">
-<img src="/images/image23.jpg" width="200">
+<img src="/images/image4.jpg" width="150"> <img src="/images/image21.jpg" width="150"> <img src="/images/image23.jpg" width="150">
 
 Il primo passo consiste nell’assemblaggio della struttura su cui sono posizionati i 4 flussometri e su cui, successivamente, verranno inseriti i collegamenti elettrici.
 
@@ -152,25 +150,25 @@ Com’è possibile notare nella figura relativa al tubo da giardino, due raccord
 
 Innanzitutto serviranno dei segmenti di tubo, di misura più o meno variabile (in base allo spazio in cui verrà utilizzato il progetto, in questo caso non superano i 10 cm), come rappresentati in figura.
 
-<img src="/images/image6.png" width="300">
+<img src="/images/image6.png" width="200">
 
 Tali segmenti saranno fondamentali per la creazione della struttura nella quale verranno connessi i flussometri; sarà indispensabile l’utilizzo dei raccordi per il loro assemblaggio.
 
 Iniziamo con il montaggio del primo segmento:
 
-<img src="/images/image38.png" width="400">
+<img src="/images/image38.png" width="200">
 
 I raccordi vengono connessi come in figura; questo segmento sarà il primo segmento che permetterà la connessione alla rete idrica tramite, come detto in precedenza, il tubo da giardino.
 
 A tale segmento, per il calcolo del flusso principale, viene connesso il primo flussometro.
 
-<img src="/images/image31.png" width="400">
+<img src="/images/image31.png" width="200">
 
 Da un lato, grazie all’utilizzo di un riduttore, viene fissato il primo flussometro, mentre dall’altro lato un raccordo, per permettere la divisione del flusso principale, della prima linea, in due linee derivate.
 
 Nei due nuovi rami creati possono essere inseriti due nuovi segmenti (creati con le stesse modalità del primo) e in uno dei due può essere inserito il secondo flussometro, che sarà utilizzato per il calcolo del flusso d’acqua nel secondo ramo.
 
-<img src="/images/image22.png" width="300">
+<img src="/images/image22.png" width="200">
 
 I due flussometri verranno in seguito connessi al nodeMCU tramite uno specifico schema elettrico mostrato successivamente nel tutorial.
 
@@ -178,17 +176,17 @@ Uno dei due rami viene utilizzato esclusivamente per il calcolo di un flusso, l�
 
 In tale ramo può essere perciò posizionato il terzo flussometro, relativo al calcolo del secondo flusso derivato dal ramo principale, e, con l’utilizzo di un altro raccordo, un ulteriore ramo responsabile della perdita. A tale ramo può essere così connesso un rubinetto (grazie al quale la condizione di perdita o meno può essere arbitraria) e un ulteriore flussometro, fondamentale per il calcolo del flusso perso. Vengono perciò mostrate le due figure relative a queste ultime connessioni.
 
-<img src="/images/image16.png" width="300">
-<img src="/images/image26.png" width="300">
+<img src="/images/image16.png" width="500">
+<img src="/images/image26.png" width="500">
 
 Effettuando queste operazioni viene perciò completata la struttura comprendente i 4 flussometri. Per creare una base su cui vengono poggiati i 2 Power Bank e il nodeMCU, viene inserito un piccolo piano in polistirolo, come in figura:
 
-<img src="/images/image20.png" width="400">
-<img src="/images/image36.jpg" width="400">
+<img src="/images/image20.png" width="500">
+<img src="/images/image36.jpg" width="500">
 
 Per completare l’assemblaggio, viene ora mostrato lo schema circuitale da adottare per il conclusivo collegamento dei flussometri al nodeMCU.
 
-<img src="/images/image7.png" width="500">
+<img src="/images/image7.png" width="700">
 
 Com’è possibile osservare in figura, il nodeMCU viene alimentato indipendemente da un Power Bank (comunque sostituibile da un alimentatore connesso alla rete elettrica), in maniera separata dai flussometri. Nel caso illustrato in questo progetto, si sono scelti due differenti alimentazioni per motivi logistici, in ogni caso potrebbe essere utilizzato un unico alimentatore (importante però garantire un’alimentazione con un voltaggio di 5 V in grado di erogare almeno 15 mA x 4 per i flussometri, più la corrente necessaria per in nodeMCU, in questo caso sarebbe sufficiente 1 A); viene consigliato un alimentatore a 5 V in grado di erogare 2-3 A.
 
@@ -198,7 +196,7 @@ Si consiglia l’utilizzo di un piccolo saldatore di precisione per i vari colle
 
 In figura viene mostrata la finale configurazione del progetto:
 
-<img src="/images/image27.png" width="500">
+<img src="/images/image27.png" width="600">
 
 Il cavo in uscita dal node può essere connesso al secondo Power Bank o ad un alimentatore precedentemente discusso.
 
