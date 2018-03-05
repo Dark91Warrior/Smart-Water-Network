@@ -351,6 +351,8 @@ Tramite il pulsante "Carica" a forma di freccia in alto a sinistra caricate il c
 
 Ora dovrebbe essere tutto a posto e potrete godervi il vostro lavoro. Se avete già esperienza con questo tipo di moduli e software potete anche smanettare nel codice per modificare alcuni parametri (quali i tempi di attesa o delay ecc.). Buon divertimento!
 
+
+
 <p align="center">
-<img src="https://i.pinimg.com/originals/98/52/0e/98520e29d3b314f585e380d00c8f7d36.png" width="400">
+<img src="https://orig00.deviantart.net/52e7/f/2011/252/3/a/rock_lee_render_2_by_xuzumaki-d49bjaa.png" width="400">
 </p>
