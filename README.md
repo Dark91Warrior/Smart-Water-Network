@@ -120,4 +120,5 @@ Prima dell’installazione abbiamo provveduto a tarare i singoli flussometri, fa
 Analizzato il problema che si intende risolvere si può passare all’assemblaggio, vero e proprio, del progetto.
 II montaggio verrà spiegato passo passo con l’ausilio di immagini; prima di tutto occorre mostrare una panoramica del materiale, precedentemente analizzato, che è stato utilizzato.
 
+Flussometri
 ![flussometri](/images/image33.png?raw=true "Flussometri")
