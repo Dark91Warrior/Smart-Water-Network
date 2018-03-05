@@ -187,7 +187,7 @@ Effettuando queste operazioni viene perciò completata la struttura comprendente
 Per completare l’assemblaggio, viene ora mostrato lo schema circuitale da adottare per il conclusivo collegamento dei flussometri al nodeMCU.
 
 <p align="center">
-  <img src="/images/image7.png" width="800">
+  <img src="/images/image7.png" width="600">
 </p>
 
 Com’è possibile osservare in figura, il nodeMCU viene alimentato indipendemente da un Power Bank (comunque sostituibile da un alimentatore connesso alla rete elettrica), in maniera separata dai flussometri. Nel caso illustrato in questo progetto, si sono scelti due differenti alimentazioni per motivi logistici, in ogni caso potrebbe essere utilizzato un unico alimentatore (importante però garantire un’alimentazione con un voltaggio di 5 V in grado di erogare almeno 15 mA x 4 per i flussometri, più la corrente necessaria per in nodeMCU, in questo caso sarebbe sufficiente 1 A); viene consigliato un alimentatore a 5 V in grado di erogare 2-3 A.
@@ -277,11 +277,12 @@ Innanzitutto andate sul sito ThingSpeak [https://thingspeak.com/](https://things
 
 <img src="/images/image2.jpg" width="300">
 
-<img src="/images/image3.png" width="300">
+
+<img src="/images/image3.png" width="400">
 
 Una volta creati e configurati i canali nel portale, bisogna aggiungere le informazioni del canale precedentemente citate all’interno del codice. Le variabili del codice che andremo a modificare sono quelle raffigurate nell’immagine successiva. Andremo quindi a sostituire nella variabile "myChannelNumber", l’asterisco con l’id del canale creato su ThingSpeak. Aggiungeremo poi tra i doppi apici della variabile “myWriteAPIKey” la API in scrittura del nostro canale. Queste due informazioni consentiranno al nostro modulo NodeMCU di comunicare con il canale creato sul portale web.
 
-<img src="/images/image13.png" width="600">
+<img src="/images/image13.png" width="700">
 
 **5. Creazione del Bot Telegram**
 
@@ -297,11 +298,11 @@ Il primo passo consiste nella creazione di un BOT e per fare ciò si utilizza un
 
 Le informazioni date dal BotFather devono essere memorizzate per essere poi inserite nel codice: nome del BOT, username del BOT, token comunicato dal BotFather. Il punto del codice in cui sostituire le informazioni è raffigurato nell’immagine seguente.
 
-<img src="/images/image37.png" width="700">
+<img src="/images/image37.png" width="500">
 
 Una volta creato il Bot ci serviranno anche le informazioni della chat in cui vogliamo inviare. Possiamo inviare messaggi ad un utente in particolare o a un gruppo. In primo luogo avviamo la chat con il comando "/start". Quindi apriamo un qualsiasi browser all’indirizzo [https://api.telegram.org/bot<token>/getUpdates](https://api.telegram.org/bot<token>/getUpdates) in cui sostituiremo a <token> il codice generato in fase di creazione del bot. Per ricavare il token del Bot basta richiederlo al Bot BotFather come raffigurato nell’immagine seguente.
 
-<img src="/images/image12.jpg" width="700">
+<img src="/images/image12.jpg" width="500">
 
 Una volta scritto un messaggio al Bot quindi otterremo delle informazioni scritte nel formato:
 
@@ -327,27 +328,27 @@ Una volta scelto il numero degli utenti a cui fornire i permessi, andremo ad agg
 
 if (0 == id.compareTo(utente1) || 0 == id.compareTo(utente2) || 0 == id.compareTo(utente3)) e così via fino a coprire il numero di utenti desiderato.
 
-![image alt text](image_15.png)
+<img src="/images/image15.png" width="700">
 
 Per quanto riguarda invece la/e chat in cui inviare il messaggio di avviso bisogna modificare il seguente pezzo di codice aggiungendo l’id della/e chat a cui volete inviare il messaggio. L’id della chat può essere estratto come abbiamo fatto con quello dell’utente. Una volta individuato dovete inserirlo all’interno della funzione bot.sendmessage("", “C’è una perdita!”, “”); e più specificatamente all’interno delle prime virgolette dentro le parentesi.
 
-![image alt text](image_16.png)
+<img src="/images/image18.png" width="700">
 
 **6. Configurazione della connessione al Wi-Fi**
 
 Infine bisogna configurare la connessione al Wi-Fi per permettere la comunicazione del NodeMCU con le applicazioni Telegram e ThingSpeak. Nel campo ssid tra le virgolette inserite il nome della rewte Wi-Fi a cui volete connettervi e nel campo password la password relativa ad essa.
 
-![image alt text](image_17.png)
+<img src="/images/image24.png" width="700">
 
 **7. Caricamento del codice sul modulo**
 
 Una volta effettuate tutte queste operazioni, collegate il vostro NodeMCU con un cavetto USB al vostro PC. Andate su "Strumenti" e dopo aver collegato il modulo dovrebbe apparirvi la porta a cui è connesso. Qualora non fosse già selezionata, selezionatela.
 
- ![image alt text](image_18.png)
+<img src="/images/image30.png" width="700">
 
 Tramite il pulsante "Carica" a forma di freccia in alto a sinistra caricate il codice nel modulo.
 
-![image alt text](image_19.png)
+<img src="/images/image9.png" width="600">
 
 Ora dovrebbe essere tutto a posto e potrete godervi il vostro lavoro. Se avete già esperienza con questo tipo di moduli e software potete anche smanettare nel codice per modificare alcuni parametri (quali i tempi di attesa o delay ecc.). Buon divertimento!
 
