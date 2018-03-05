@@ -271,7 +271,7 @@ Una volta effettuati questi passaggi possiamo andare ad analizzare il codice.
 
 Innanzitutto andate sul sito ThingSpeak [https://thingspeak.com/](https://thingspeak.com/) e, se non lo avete già fatto, create un nuovo account cliccando il pulsante "Registrati" in alto a destra. Una volta creato l’account andate nella sezione “I miei canali” e cliccate su “New Channel”. A questo punto possiamo dare un nome e una descrizione al nostro canale oltre a selezionare i campi necessari alla visualizzazione dei dati rilevati e trasmessi alla piattaforma ThingSpeak. Nel nostro caso useremo cinque campi: Campo 1 dove inseriremo “Fmax”, Campo 2 con “Flux1”, Campo 3 con “Flux2”, Campo 4 con “Flux3” e Campo 5 con “Loss_F”. Nella figura seguente è mostrato un esempio di come appariranno i campi. Infine clicchiamo su “Save Channel” lasciando invariate le altre opzioni. A questo punto abbiamo creato il nostro canale. Affinché possa essere impiegato correttamente, occorre che il nostro modulo NodeMCU conosca il “token” associato a tale canale. Cliccate su “Chiavi API” e memorizzate l’ID Canale e la Chiave API di scrittura. Questi due valori serviranno nel momento in cui scriverete il vostro codice e cercherete di immettere nella vostra sezione personale (identificabile attraverso ID Canale e Chiave di scrittura) i valori letti dai flussometri.
 
-<img src="/images/image2.png" width="600">
+<img src="/images/image2.jpg" width="600">
 
 <img src="/images/image3.png" width="500">
 
@@ -297,7 +297,7 @@ Le informazioni date dal BotFather devono essere memorizzate per essere poi inse
 
 Una volta creato il Bot ci serviranno anche le informazioni della chat in cui vogliamo inviare. Possiamo inviare messaggi ad un utente in particolare o a un gruppo. In primo luogo avviamo la chat con il comando "/start". Quindi apriamo un qualsiasi browser all’indirizzo [https://api.telegram.org/bot<token>/getUpdates](https://api.telegram.org/bot<token>/getUpdates) in cui sostituiremo a <token> il codice generato in fase di creazione del bot. Per ricavare il token del Bot basta richiederlo al Bot BotFather come raffigurato nell’immagine seguente.
 
-<img src="/images/image12.png" width="700">
+<img src="/images/image12.jpg" width="700">
 
 Una volta scritto un messaggio al Bot quindi otterremo delle informazioni scritte nel formato:
 
