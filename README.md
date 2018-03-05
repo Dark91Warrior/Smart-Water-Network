@@ -207,11 +207,11 @@ Il cavo in uscita dal node può essere connesso al secondo Power Bank o ad un al
 
 Andare sul sito [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software) e scaricare l’ultima versione del software per poter eseguire e caricare il codice all’interno del modulo NodeMCU.
 
-![image alt text](image_2.png)
+<img src="/images/image32.png" width="400">
 
 Una volta scaricato il software, installarlo ed avviarlo. Una volta avviato creare un nuovo sketch come mostrato nell’immagine.
 
-![image alt text](image_3.png)
+<img src="/images/image8.png" width="400">
 
 Ora abbiamo creato il nostro primo sketch. Dal menù Strumenti selezionare la board di interesse e la porta di comunicazione impiegata (Porta COM). Non appena selezionate correttamente queste due impostazioni, nella parte in basso a destra della finestra della IDE di Arduino potrete trovare qualcosa simile all’immagine precedente.
 
@@ -221,11 +221,11 @@ Ora abbiamo creato il nostro primo sketch. Dal menù Strumenti selezionare la bo
 
 Innanzitutto bisogna scaricare la libreria del modulo ESP8266 nodeMCU. Quindi andare sul menù "Sketch->#include libreria->Gestione librerie andiamo a cercare le libreria nodeMCU sulla barra di ricerca. Dovrebbe apparire la libreria “esp8266 by ESP8266 Community" come nell’immagine seguente.
 
-![image alt text](image_4.png)
+<img src="/images/image29.png" width="400">
 
 Una volta trovata la libreria cliccare sul pulsante "Installa" e il gioco è fatto. Una volta installata la libreria andremo a selezionare dal menù: Strumenti -> Scheda -> NodeMCU 1.0 (ESP-12E Module) come raffigurato in seguito.
 
- ![image alt text](image_5.png)
+<img src="/images/image19.png" width="400">
 
 Una volta installata la libreria del NodeMCU bisogna installare quelle relative a Telegram e ThingSpeak; i due portali principali di cui ci avvarremo per comunicare col nostro sistema e ricevere informazioni importanti.
 
@@ -233,18 +233,19 @@ Una volta installata la libreria del NodeMCU bisogna installare quelle relative 
 
 Come fatto precedentemente andare sulla gestione delle librerie e scrivere sulla barra di ricerca "telegram". Una volta individuata la libreria “ESP8266TelegramBOT” installarla qualora non fosse già installata. 
 
-![image alt text](image_6.png)
+<img src="/images/image1.png" width="400">
 
 **ThingSpeak**
 
 Scrivere nella barra di ricerca: "thingspeak", individuare la libreria ed installarla
 
-![image alt text](image_7.png)
+<img src="/images/image14.png" width="400">
 
 **Includere le librerie**
 
 Le librerie di cui ha bisogno tutto il sistema per funzionare sono quindi le seguenti:
 
+'''
 #include <ESP8266WiFi.h>
 
 #include <WiFiClientSecure.h>
@@ -252,6 +253,7 @@ Le librerie di cui ha bisogno tutto il sistema per funzionare sono quindi le seg
 #include <ThingSpeak.h>
 
 #include <ESP8266TelegramBOT.h>
+'''
 
 Notiamo le librerie di Telegram e ThingSpeak che abbiamo scaricato precedentemente.
 
@@ -261,7 +263,7 @@ Adesso possiamo andare ad aggiungere le informazioni mancanti all’interno del 
 
 Andare al seguente sito [https://github.com/Dark91Warrior/Smart-Water-Network](https://github.com/Dark91Warrior/Smart-Water-Network)** **e scaricare tramite il pulsante Clone or Download il codice che utilizzeremo. Una volta scaricato estrarlo dall’archivio e inserire il file Smart_Water_Network in una cartella avente lo stesso nome all’interno dei progetti di Arduino che si trovano solitamente nella cartella "Documenti/Arduino/" (per chi usa Windows).
 
-![image alt text](image_8.png)
+<img src="/images/image10.png" width="400">
 
 Una volta effettuati questi passaggi possiamo andare ad analizzare il codice.
 
