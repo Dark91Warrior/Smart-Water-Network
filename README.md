@@ -121,23 +121,23 @@ Analizzato il problema che si intende risolvere si può passare all’assemblagg
 II montaggio verrà spiegato passo passo con l’ausilio di immagini; prima di tutto occorre mostrare una panoramica del materiale, precedentemente analizzato, che è stato utilizzato.
 
 Flussometri
-![flussometri](/images/image33.png?raw=true "Flussometri")
+<img src="/images/image33.png" width="512">
 
 Tubo da giardino
-![tubo](/images/image35.png?raw=true "Tubo da giardino")
+<img src="/images/image35.png" width="512">
 
 Raccordi e riduttori
-![raccordi](/images/image34.jpg?raw=true "Raccordi e riduttori")
+<img src="/images/image34.jpg" width="512">
 
 Power Bank
-![raccordi](/images/image11.png?raw=true "Power Bank")
-![raccordi](/images/image25.png?raw=true "Power Bank")
+<img src="/images/image11.png" width="512">
+<img src="/images/image25.png" width="512">
 
 In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
 
-![node](/images/image4.jpg?raw=true "NodeMCU")
-<img src="/images/image21.jpg" width="124">
-![ethernet](/images/image23.jpg?raw=true "Cavo Ethernet")
+<img src="/images/image4.jpg" width="512">
+<img src="/images/image21.jpg" width="512">
+<img src="/images/image23.jpg" width="512">
 
 Il primo passo consiste nell’assemblaggio della struttura su cui sono posizionati i 4 flussometri e su cui, successivamente, verranno inseriti i collegamenti elettrici.
 
