@@ -263,7 +263,7 @@ Adesso possiamo andare ad aggiungere le informazioni mancanti all’interno del 
 
 Andare al seguente sito [https://github.com/Dark91Warrior/Smart-Water-Network](https://github.com/Dark91Warrior/Smart-Water-Network) e scaricare tramite il pulsante Clone or Download il codice che utilizzeremo. Una volta scaricato estrarlo dall’archivio e inserire il file Smart_Water_Network in una cartella avente lo stesso nome all’interno dei progetti di Arduino che si trovano solitamente nella cartella "Documenti/Arduino/" (per chi usa Windows).
 
-<img src="/images/image10.png" width="400">
+<img src="/images/image10.png" width="600">
 
 Una volta effettuati questi passaggi possiamo andare ad analizzare il codice.
 
@@ -271,13 +271,13 @@ Una volta effettuati questi passaggi possiamo andare ad analizzare il codice.
 
 Innanzitutto andate sul sito ThingSpeak [https://thingspeak.com/](https://thingspeak.com/) e, se non lo avete già fatto, create un nuovo account cliccando il pulsante "Registrati" in alto a destra. Una volta creato l’account andate nella sezione “I miei canali” e cliccate su “New Channel”. A questo punto possiamo dare un nome e una descrizione al nostro canale oltre a selezionare i campi necessari alla visualizzazione dei dati rilevati e trasmessi alla piattaforma ThingSpeak. Nel nostro caso useremo cinque campi: Campo 1 dove inseriremo “Fmax”, Campo 2 con “Flux1”, Campo 3 con “Flux2”, Campo 4 con “Flux3” e Campo 5 con “Loss_F”. Nella figura seguente è mostrato un esempio di come appariranno i campi. Infine clicchiamo su “Save Channel” lasciando invariate le altre opzioni. A questo punto abbiamo creato il nostro canale. Affinché possa essere impiegato correttamente, occorre che il nostro modulo NodeMCU conosca il “token” associato a tale canale. Cliccate su “Chiavi API” e memorizzate l’ID Canale e la Chiave API di scrittura. Questi due valori serviranno nel momento in cui scriverete il vostro codice e cercherete di immettere nella vostra sezione personale (identificabile attraverso ID Canale e Chiave di scrittura) i valori letti dai flussometri.
 
-![image alt text](image_9.jpg)
+<img src="/images/image2.png" width="600">
 
-![image alt text](image_10.png)
+<img src="/images/image3.png" width="500">
 
 Una volta creati e configurati i canali nel portale, bisogna aggiungere le informazioni del canale precedentemente citate all’interno del codice. Le variabili del codice che andremo a modificare sono quelle raffigurate nell’immagine successiva. Andremo quindi a sostituire nella variabile "myChannelNumber", l’asterisco con l’id del canale creato su ThingSpeak. Aggiungeremo poi tra i doppi apici della variabile “myWriteAPIKey” la API in scrittura del nostro canale. Queste due informazioni consentiranno al nostro modulo NodeMCU di comunicare con il canale creato sul portale web.
 
-![image alt text](image_11.png)
+<img src="/images/image13.png" width="600">
 
 **5. Creazione del Bot Telegram**
 
@@ -293,29 +293,31 @@ Il primo passo consiste nella creazione di un BOT e per fare ciò si utilizza un
 
 Le informazioni date dal BotFather devono essere memorizzate per essere poi inserite nel codice: nome del BOT, username del BOT, token comunicato dal BotFather. Il punto del codice in cui sostituire le informazioni è raffigurato nell’immagine seguente.
 
-![image alt text](image_12.png)
+<img src="/images/image37.png" width="500">
 
 Una volta creato il Bot ci serviranno anche le informazioni della chat in cui vogliamo inviare. Possiamo inviare messaggi ad un utente in particolare o a un gruppo. In primo luogo avviamo la chat con il comando "/start". Quindi apriamo un qualsiasi browser all’indirizzo [https://api.telegram.org/bot<token>/getUpdates](https://api.telegram.org/bot<token>/getUpdates) in cui sostituiremo a <token> il codice generato in fase di creazione del bot. Per ricavare il token del Bot basta richiederlo al Bot BotFather come raffigurato nell’immagine seguente.
 
-![image alt text](image_13.jpg)
+<img src="/images/image12.png" width="500">
 
 Una volta scritto un messaggio al Bot quindi otterremo delle informazioni scritte nel formato:
 
-**"chat":**
+```
+"chat":
 
-**{**
+ {
 
-**"username": "yourusername",**
+  "username": "yourusername",
 
-**"first_name": "yourfirstname",**
+  "first_name": "yourfirstname",
 
-**"id": XXXX**
+  "id": XXXX
 
-**}**
+}
+```
 
 per ogni messaggio che abbiamo inviato al Bot nel sito precedentemente indicato. Per quanto riguarda l’utente, estrapoleremo l’id dell’utente o degli utenti a cui desideriamo fornire l’accesso e lo inseriremo nel codice, precisamente nella parte sottostante. Per più utenti basta dichiarare un’altra variabile (come utente2, utente3 ecc.) ed assegnargli l’id corrispondente.
 
-![image alt text](image_14.png)
+<img src="/images/image17.png" width="700">
 
 Una volta scelto il numero degli utenti a cui fornire i permessi, andremo ad aggiungerli nella relativa sezione di gestione dei messaggi di Telegram. Qualora abbiate fornito i permessi a un solo utente potete lasciare il codice invariato. Se aggiungete più utenti basta aggiungere nella condizione if l’id degli altri utenti con degli OR in questa semplice maniera:
 
