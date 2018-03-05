@@ -168,7 +168,7 @@ Da un lato, grazie all’utilizzo di un riduttore, viene fissato il primo flusso
 
 Nei due nuovi rami creati possono essere inseriti due nuovi segmenti (creati con le stesse modalità del primo) e in uno dei due può essere inserito il secondo flussometro, che sarà utilizzato per il calcolo del flusso d’acqua nel secondo ramo.
 
-<img src="/images/image22.png" width="200">
+<img src="/images/image.png" width="200">
 
 I due flussometri verranno in seguito connessi al nodeMCU tramite uno specifico schema elettrico mostrato successivamente nel tutorial.
 
@@ -282,7 +282,7 @@ Innanzitutto andate sul sito ThingSpeak [https://thingspeak.com/](https://things
 
 Una volta creati e configurati i canali nel portale, bisogna aggiungere le informazioni del canale precedentemente citate all’interno del codice. Le variabili del codice che andremo a modificare sono quelle raffigurate nell’immagine successiva. Andremo quindi a sostituire nella variabile "myChannelNumber", l’asterisco con l’id del canale creato su ThingSpeak. Aggiungeremo poi tra i doppi apici della variabile “myWriteAPIKey” la API in scrittura del nostro canale. Queste due informazioni consentiranno al nostro modulo NodeMCU di comunicare con il canale creato sul portale web.
 
-<img src="/images/image13.png" width="700">
+<img src="/images/image13.png" width="750">
 
 **5. Creazione del Bot Telegram**
 
@@ -298,7 +298,7 @@ Il primo passo consiste nella creazione di un BOT e per fare ciò si utilizza un
 
 Le informazioni date dal BotFather devono essere memorizzate per essere poi inserite nel codice: nome del BOT, username del BOT, token comunicato dal BotFather. Il punto del codice in cui sostituire le informazioni è raffigurato nell’immagine seguente.
 
-<img src="/images/image37.png" width="500">
+<img src="/images/image37.png" width="550">
 
 Una volta creato il Bot ci serviranno anche le informazioni della chat in cui vogliamo inviare. Possiamo inviare messaggi ad un utente in particolare o a un gruppo. In primo luogo avviamo la chat con il comando "/start". Quindi apriamo un qualsiasi browser all’indirizzo [https://api.telegram.org/bot<token>/getUpdates](https://api.telegram.org/bot<token>/getUpdates) in cui sostituiremo a <token> il codice generato in fase di creazione del bot. Per ricavare il token del Bot basta richiederlo al Bot BotFather come raffigurato nell’immagine seguente.
 
@@ -328,17 +328,17 @@ Una volta scelto il numero degli utenti a cui fornire i permessi, andremo ad agg
 
 if (0 == id.compareTo(utente1) || 0 == id.compareTo(utente2) || 0 == id.compareTo(utente3)) e così via fino a coprire il numero di utenti desiderato.
 
-<img src="/images/image15.png" width="700">
+<img src="/images/image15.png" width="750">
 
 Per quanto riguarda invece la/e chat in cui inviare il messaggio di avviso bisogna modificare il seguente pezzo di codice aggiungendo l’id della/e chat a cui volete inviare il messaggio. L’id della chat può essere estratto come abbiamo fatto con quello dell’utente. Una volta individuato dovete inserirlo all’interno della funzione bot.sendmessage("", “C’è una perdita!”, “”); e più specificatamente all’interno delle prime virgolette dentro le parentesi.
 
-<img src="/images/image18.png" width="700">
+<img src="/images/image18.png" width="750">
 
 **6. Configurazione della connessione al Wi-Fi**
 
 Infine bisogna configurare la connessione al Wi-Fi per permettere la comunicazione del NodeMCU con le applicazioni Telegram e ThingSpeak. Nel campo ssid tra le virgolette inserite il nome della rewte Wi-Fi a cui volete connettervi e nel campo password la password relativa ad essa.
 
-<img src="/images/image24.png" width="700">
+<img src="/images/image24.png" width="750">
 
 **7. Caricamento del codice sul modulo**
 
@@ -348,7 +348,7 @@ Una volta effettuate tutte queste operazioni, collegate il vostro NodeMCU con un
 
 Tramite il pulsante "Carica" a forma di freccia in alto a sinistra caricate il codice nel modulo.
 
-<img src="/images/image9.png" width="600">
+<img src="/images/image9.png" width="700">
 
 Ora dovrebbe essere tutto a posto e potrete godervi il vostro lavoro. Se avete già esperienza con questo tipo di moduli e software potete anche smanettare nel codice per modificare alcuni parametri (quali i tempi di attesa o delay ecc.). Buon divertimento!
 
