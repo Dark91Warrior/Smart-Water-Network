@@ -186,7 +186,9 @@ Effettuando queste operazioni viene perciò completata la struttura comprendente
 
 Per completare l’assemblaggio, viene ora mostrato lo schema circuitale da adottare per il conclusivo collegamento dei flussometri al nodeMCU.
 
-<img align="center" src="/images/image7.png" width="800">
+<p align="center">
+  <img src="/images/image7.png" width="800">
+</p>
 
 Com’è possibile osservare in figura, il nodeMCU viene alimentato indipendemente da un Power Bank (comunque sostituibile da un alimentatore connesso alla rete elettrica), in maniera separata dai flussometri. Nel caso illustrato in questo progetto, si sono scelti due differenti alimentazioni per motivi logistici, in ogni caso potrebbe essere utilizzato un unico alimentatore (importante però garantire un’alimentazione con un voltaggio di 5 V in grado di erogare almeno 15 mA x 4 per i flussometri, più la corrente necessaria per in nodeMCU, in questo caso sarebbe sufficiente 1 A); viene consigliato un alimentatore a 5 V in grado di erogare 2-3 A.
 
@@ -196,7 +198,9 @@ Si consiglia l’utilizzo di un piccolo saldatore di precisione per i vari colle
 
 In figura viene mostrata la finale configurazione del progetto:
 
-<img align="center" src="/images/image27.png" width="600">
+<p align="center">
+  <img src="/images/image27.png" width="600">
+</p>
 
 Il cavo in uscita dal node può essere connesso al secondo Power Bank o ad un alimentatore precedentemente discusso.
 
