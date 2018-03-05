@@ -354,5 +354,5 @@ Ora dovrebbe essere tutto a posto e potrete godervi il vostro lavoro. Se avete g
 
 
 <p align="center">
-<img src="https://orig00.deviantart.net/52e7/f/2011/252/3/a/rock_lee_render_2_by_xuzumaki-d49bjaa.png" width="400">
+<img src="https://orig00.deviantart.net/52e7/f/2011/252/3/a/rock_lee_render_2_by_xuzumaki-d49bjaa.png" width="300">
 </p>
