@@ -293,11 +293,11 @@ Il primo passo consiste nella creazione di un BOT e per fare ciò si utilizza un
 
 Le informazioni date dal BotFather devono essere memorizzate per essere poi inserite nel codice: nome del BOT, username del BOT, token comunicato dal BotFather. Il punto del codice in cui sostituire le informazioni è raffigurato nell’immagine seguente.
 
-<img src="/images/image37.png" width="500">
+<img src="/images/image37.png" width="700">
 
 Una volta creato il Bot ci serviranno anche le informazioni della chat in cui vogliamo inviare. Possiamo inviare messaggi ad un utente in particolare o a un gruppo. In primo luogo avviamo la chat con il comando "/start". Quindi apriamo un qualsiasi browser all’indirizzo [https://api.telegram.org/bot<token>/getUpdates](https://api.telegram.org/bot<token>/getUpdates) in cui sostituiremo a <token> il codice generato in fase di creazione del bot. Per ricavare il token del Bot basta richiederlo al Bot BotFather come raffigurato nell’immagine seguente.
 
-<img src="/images/image12.png" width="500">
+<img src="/images/image12.png" width="700">
 
 Una volta scritto un messaggio al Bot quindi otterremo delle informazioni scritte nel formato:
 
@@ -317,7 +317,7 @@ Una volta scritto un messaggio al Bot quindi otterremo delle informazioni scritt
 
 per ogni messaggio che abbiamo inviato al Bot nel sito precedentemente indicato. Per quanto riguarda l’utente, estrapoleremo l’id dell’utente o degli utenti a cui desideriamo fornire l’accesso e lo inseriremo nel codice, precisamente nella parte sottostante. Per più utenti basta dichiarare un’altra variabile (come utente2, utente3 ecc.) ed assegnargli l’id corrispondente.
 
-<img src="/images/image17.png" width="700">
+<img src="/images/image17.png" width="900">
 
 Una volta scelto il numero degli utenti a cui fornire i permessi, andremo ad aggiungerli nella relativa sezione di gestione dei messaggi di Telegram. Qualora abbiate fornito i permessi a un solo utente potete lasciare il codice invariato. Se aggiungete più utenti basta aggiungere nella condizione if l’id degli altri utenti con degli OR in questa semplice maniera:
 
