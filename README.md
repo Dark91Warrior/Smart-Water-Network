@@ -137,8 +137,7 @@ Raccordi e riduttori
 
 Power Bank
 
-<img src="/images/image11.png" width="300">
-<img src="/images/image25.png" width="280">
+<img src="/images/image11.png" width="300"> <img src="/images/image25.png" width="280">
 
 
 In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
