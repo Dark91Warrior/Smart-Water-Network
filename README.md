@@ -275,9 +275,9 @@ Una volta effettuati questi passaggi possiamo andare ad analizzare il codice.
 
 Innanzitutto andate sul sito ThingSpeak [https://thingspeak.com/](https://thingspeak.com/) e, se non lo avete già fatto, create un nuovo account cliccando il pulsante "Registrati" in alto a destra. Una volta creato l’account andate nella sezione “I miei canali” e cliccate su “New Channel”. A questo punto possiamo dare un nome e una descrizione al nostro canale oltre a selezionare i campi necessari alla visualizzazione dei dati rilevati e trasmessi alla piattaforma ThingSpeak. Nel nostro caso useremo cinque campi: Campo 1 dove inseriremo “Fmax”, Campo 2 con “Flux1”, Campo 3 con “Flux2”, Campo 4 con “Flux3” e Campo 5 con “Loss_F”. Nella figura seguente è mostrato un esempio di come appariranno i campi. Infine clicchiamo su “Save Channel” lasciando invariate le altre opzioni. A questo punto abbiamo creato il nostro canale. Affinché possa essere impiegato correttamente, occorre che il nostro modulo NodeMCU conosca il “token” associato a tale canale. Cliccate su “Chiavi API” e memorizzate l’ID Canale e la Chiave API di scrittura. Questi due valori serviranno nel momento in cui scriverete il vostro codice e cercherete di immettere nella vostra sezione personale (identificabile attraverso ID Canale e Chiave di scrittura) i valori letti dai flussometri.
 
-<img src="/images/image2.jpg" width="600">
+<img src="/images/image2.jpg" width="300">
 
-<img src="/images/image3.png" width="500">
+<img src="/images/image3.png" width="300">
 
 Una volta creati e configurati i canali nel portale, bisogna aggiungere le informazioni del canale precedentemente citate all’interno del codice. Le variabili del codice che andremo a modificare sono quelle raffigurate nell’immagine successiva. Andremo quindi a sostituire nella variabile "myChannelNumber", l’asterisco con l’id del canale creato su ThingSpeak. Aggiungeremo poi tra i doppi apici della variabile “myWriteAPIKey” la API in scrittura del nostro canale. Queste due informazioni consentiranno al nostro modulo NodeMCU di comunicare con il canale creato sul portale web.
 
