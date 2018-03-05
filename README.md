@@ -2,101 +2,102 @@
 
 ## Lista dei componenti
 
-<table>
-  <tr>
-    <td>Quantità</td>
-    <td>Nome + codice</td>
-    <td>Budget</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Flussometri da 1⁄2 e portata max 30 l/m (ARD09180CN )</td>
-    <td>56.96 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>ESP8266
-(P17100210)</td>
-    <td>8,09 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Cavo microUSB
-(ICOC MUSB-A-006S)</td>
-    <td>4.89 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Arduino MEGA
-(ARDUINOR2560)</td>
-    <td>22 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Breadboard
-(ARD01002CN)</td>
-    <td>3.16 €</td>
-  </tr>
-  <tr>
-    <td>1m</td>
-    <td>Cavo elettrico Ethernet
-(V932144)</td>
-    <td>2.85 €</td>
-  </tr>
-  <tr>
-    <td>1m</td>
-    <td>Tubo da giardino
-(186874)</td>
-    <td>5 €</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Raccordi M-F
-(35877)</td>
-    <td>20 €</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Riduttori da applicare al flussometro</td>
-    <td>9 €</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Raccordi M per rubinetto
-(90320)</td>
-    <td>10.50 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Rubinetto ½ pollice</td>
-    <td>3 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Raccordo a T per rubinetto
-(8614)</td>
-    <td>3.5 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Teflon
-(SMK-Q0316)</td>
-    <td>0.60 €</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Nastro isolante
-(62379 )</td>
-    <td>2.50 €</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Power bank
-(YB6016-STGOL)</td>
-    <td>20 €</td>
-  </tr>
-</table>
-
+<p align="center">
+  <table>
+    <tr>
+      <td>Quantità</td>
+      <td>Nome + codice</td>
+      <td>Budget</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Flussometri da 1⁄2 e portata max 30 l/m (ARD09180CN )</td>
+      <td>56.96 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>ESP8266
+  (P17100210)</td>
+      <td>8,09 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cavo microUSB
+  (ICOC MUSB-A-006S)</td>
+      <td>4.89 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Arduino MEGA
+  (ARDUINOR2560)</td>
+      <td>22 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Breadboard
+  (ARD01002CN)</td>
+      <td>3.16 €</td>
+    </tr>
+    <tr>
+      <td>1m</td>
+      <td>Cavo elettrico Ethernet
+  (V932144)</td>
+      <td>2.85 €</td>
+    </tr>
+    <tr>
+      <td>1m</td>
+      <td>Tubo da giardino
+  (186874)</td>
+      <td>5 €</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Raccordi M-F
+  (35877)</td>
+      <td>20 €</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Riduttori da applicare al flussometro</td>
+      <td>9 €</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Raccordi M per rubinetto
+  (90320)</td>
+      <td>10.50 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Rubinetto ½ pollice</td>
+      <td>3 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Raccordo a T per rubinetto
+  (8614)</td>
+      <td>3.5 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Teflon
+  (SMK-Q0316)</td>
+      <td>0.60 €</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nastro isolante
+  (62379 )</td>
+      <td>2.50 €</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Power bank
+  (YB6016-STGOL)</td>
+      <td>20 €</td>
+    </tr>
+  </table>
+</p>
 
 ## Principio di funzionamento del progetto
 
@@ -120,25 +121,28 @@ Prima dell’installazione abbiamo provveduto a tarare i singoli flussometri, fa
 Analizzato il problema che si intende risolvere si può passare all’assemblaggio, vero e proprio, del progetto.
 II montaggio verrà spiegato passo passo con l’ausilio di immagini; prima di tutto occorre mostrare una panoramica del materiale, precedentemente analizzato, che è stato utilizzato.
 
-Flussometri
+<p align="center">
 
-<img src="/images/image33.png" width="300">
+  Flussometri
 
-
-Tubo da giardino
-
-<img src="/images/image35.png" width="250">
+  <img src="/images/image33.png" width="300">
 
 
-Raccordi e riduttori
+  Tubo da giardino
 
-<img src="/images/image34.jpg" width="250">
+  <img src="/images/image35.png" width="250">
 
 
-Power Bank
+  Raccordi e riduttori
 
-<img src="/images/image11.png" width="150"> <img src="/images/image25.png" width="139">
+  <img src="/images/image34.jpg" width="250">
 
+
+  Power Bank
+
+  <img src="/images/image11.png" width="150"> <img src="/images/image25.png" width="139">
+
+</p>
 
 In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
 
@@ -332,7 +336,7 @@ if (0 == id.compareTo(utente1) || 0 == id.compareTo(utente2) || 0 == id.compareT
 
 Per quanto riguarda invece la/e chat in cui inviare il messaggio di avviso bisogna modificare il seguente pezzo di codice aggiungendo l’id della/e chat a cui volete inviare il messaggio. L’id della chat può essere estratto come abbiamo fatto con quello dell’utente. Una volta individuato dovete inserirlo all’interno della funzione bot.sendmessage("", “C’è una perdita!”, “”); e più specificatamente all’interno delle prime virgolette dentro le parentesi.
 
-<img src="/images/image18.png" width="750">
+<img src="/images/image18.png" width="800">
 
 **6. Configurazione della connessione al Wi-Fi**
 
