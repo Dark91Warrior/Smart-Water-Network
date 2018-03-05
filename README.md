@@ -331,7 +331,7 @@ if (0 == id.compareTo(utente1) || 0 == id.compareTo(utente2) || 0 == id.compareT
 
 Per quanto riguarda invece la/e chat in cui inviare il messaggio di avviso bisogna modificare il seguente pezzo di codice aggiungendo l’id della/e chat a cui volete inviare il messaggio. L’id della chat può essere estratto come abbiamo fatto con quello dell’utente. Una volta individuato dovete inserirlo all’interno della funzione bot.sendmessage("", “C’è una perdita!”, “”); e più specificatamente all’interno delle prime virgolette dentro le parentesi.
 
-<img src="/images/image18.png" width="800">
+<img src="/images/image18.png" width="900">
 
 **6. Configurazione della connessione al Wi-Fi**
 
@@ -351,6 +351,6 @@ Tramite il pulsante "Carica" a forma di freccia in alto a sinistra caricate il c
 
 Ora dovrebbe essere tutto a posto e potrete godervi il vostro lavoro. Se avete già esperienza con questo tipo di moduli e software potete anche smanettare nel codice per modificare alcuni parametri (quali i tempi di attesa o delay ecc.). Buon divertimento!
 
-<img src="https://i.pinimg.com/originals/98/52/0e/98520e29d3b314f585e380d00c8f7d36.png" width="800">
-
-
+<p align="center">
+<img src="https://i.pinimg.com/originals/98/52/0e/98520e29d3b314f585e380d00c8f7d36.png" width="400">
+</p>
