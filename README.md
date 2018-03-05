@@ -137,7 +137,7 @@ Raccordi e riduttori
 
 Power Bank
 
-<img src="/images/image11.png" width="300"> <img src="/images/image25.png" width="280">
+<img src="/images/image11.png" width="300"> <img src="/images/image25.png" width="289">
 
 
 In più, naturalmente, il nodeMCU, una breadboard e del cavo ethernet da utilizzare per i collegamenti.
@@ -152,8 +152,28 @@ Com’è possibile notare nella figura relativa al tubo da giardino, due raccord
 
 Innanzitutto serviranno dei segmenti di tubo, di misura più o meno variabile (in base allo spazio in cui verrà utilizzato il progetto, in questo caso non superano i 10 cm), come rappresentati in figura.
 
+<img src="/images/image6.png" width="300">
+
 Tali segmenti saranno fondamentali per la creazione della struttura nella quale verranno connessi i flussometri; sarà indispensabile l’utilizzo dei raccordi per il loro assemblaggio.
 
 Iniziamo con il montaggio del primo segmento:
 
 <img src="/images/image38.png" width="400">
+
+I raccordi vengono connessi come in figura; questo segmento sarà il primo segmento che permetterà la connessione alla rete idrica tramite, come detto in precedenza, il tubo da giardino.
+
+A tale segmento, per il calcolo del flusso principale, viene connesso il primo flussometro.
+
+<img src="/images/image.jpg" width="300">
+
+Da un lato, grazie all’utilizzo di un riduttore, viene fissato il primo flussometro, mentre dall’altro lato un raccordo, per permettere la divisione del flusso principale, della prima linea, in due linee derivate.
+
+Nei due nuovi rami creati possono essere inseriti due nuovi segmenti (creati con le stesse modalità del primo) e in uno dei due può essere inserito il secondo flussometro, che sarà utilizzato per il calcolo del flusso d’acqua nel secondo ramo.
+
+I due flussometri verranno in seguito connessi al nodeMCU tramite uno specifico schema elettrico mostrato successivamente nel tutorial.
+
+Uno dei due rami viene utilizzato esclusivamente per il calcolo di un flusso, l’altro, invece, anche per la simulazione di una perdita.
+
+In tale ramo può essere perciò posizionato il terzo flussometro, relativo al calcolo del secondo flusso derivato dal ramo principale, e, con l’utilizzo di un altro raccordo, un ulteriore ramo responsabile della perdita. A tale ramo può essere così connesso un rubinetto (grazie al quale la condizione di perdita o meno può essere arbitraria) e un ulteriore flussometro, fondamentale per il calcolo del flusso perso. Vengono perciò mostrate le due figure relative a queste ultime connessioni.
+
+Effettuando queste operazioni viene perciò completata la struttura comprendente i 4 flussometri. Per creare una base su cui vengono poggiati i 2 Power Bank e il nodeMCU, viene inserito un piccolo piano in polistirolo, come in figura:
